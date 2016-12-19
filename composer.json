@@ -1,0 +1,25 @@
+{
+    "name": "ics042/yii2-admin-bsb",
+    "description": "Yii2 Integration for AdminBSB theme",
+    "keywords": ["yii2", "AdminBSB", "theme"],
+    "homepage": "http://github.com/ics042/yii2-admin-bsb",
+    "authors": [
+            {
+              "name": "Ben Yang",
+              "email": "tsun424@gmail.com",
+              "role": "Developer"
+            }
+    ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.7",
+        "bower-asset/adminbsb-materialdesign": "1.0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "ics042\\AdminBsb\\": "src"
+        }
+    }
+}
