@@ -77,7 +77,7 @@ class Theme extends \yii\base\Theme
      */
     public function setSkin($skin)
     {
-        AdminLteAsset::$skin = $skin;
+        AdminBsbAsset::$skin = $skin;
     }
 
     /**
@@ -85,6 +85,6 @@ class Theme extends \yii\base\Theme
      */
     public function getSkin()
     {
-        return AdminLteAsset::$skin;
+        return AdminBsbAsset::$skin;
     }
 }

@@ -29,7 +29,6 @@ ThemeAsset::register($this);
             <?= $this->render('//layouts/sidebar') ?>
             <!-- Sidebar End -->
             <!-- Content Header Begin -->
-            <?= $this->render('//layouts/content-header') ?>
             <!-- Content Header End -->
             <!-- Content Begin -->
             <?= $this->render('//layouts/content', ['content' => $content]) ?>
@@ -40,7 +39,6 @@ ThemeAsset::register($this);
     <?php $this->endBody() ?>
 
     <!-- Footer Begin -->
-    <?= $this->render('//layouts/footer') ?>
     <!-- Footer End -->
 </body>
 </html>
